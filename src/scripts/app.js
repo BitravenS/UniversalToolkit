@@ -1,2 +1,2 @@
-import cursor from './interactiveCursor.js';
+import cursor from 'interactiveCursor.js';
 cursor();
