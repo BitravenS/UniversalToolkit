@@ -1,7 +1,7 @@
 # UniversalToolkit
 
 A personal project of a universal interactive toolkit based on JavaScript.
-This repository contains the source code for a [website]{https://bitravens.github.io/UniversalToolkit/} where users can interact with many semi-basic tools for math, colors, etc...
+This repository contains the source code for a [website](https://bitravens.github.io/UniversalToolkit/) where users can interact with many semi-basic tools for math, colors, etc...
 
 ## Tools
 
