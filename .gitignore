@@ -1,24 +1,49 @@
-# Logs
-logs
+# Dependency directories
+node_modules/
+
+# Output directory
+public/
+
+# Environment variables
+.env
+
+# Log files
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# macOS specific files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# IDE or editor specific files
+.vscode/
+.idea/
+
+# npm package-lock.json file
+package-lock.json
+
+# Compiled JavaScript
+*.js
+
+# Compiled CSS
+*.css
+
+# Build directory (if different from 'public/')
+# build/
+
+# Any sensitive or environment-specific files
+# config.js (or any file containing sensitive data)
+
+# Ignore all .DS_Store files in this project
+**/.DS_Store
+
+# Ignore all .idea files in this project
+.idea/**
+
+# Ignore all .vscode files in this project
+.vscode/**
+
+# Ignore node_modules except node_modules/example/
+node_modules/
+!node_modules/example/
+
+# Ignore all files ending in .log
+*.log
